@@ -67,7 +67,7 @@ cat Chr*.snps |grep Chr |grep -v home|perl -e 'while(<>){chomp;$_=~s/^\s+//;@t=s
 ```
 perl calc_swtichErr.pl true.dataset.txt ALLHiC.hapVar.snps
 ```
-> Note: We have provided the testing sample data (10x.WH.phase.txt, PB.WH.phase.txt and ALLHiC.hapVar.snps), which can be download from the following links:
-> Baidu cloud: https://pan.baidu.com/s/1FD_CSTTnBax3aOoNdaMHiA  Extraction number: lxnv 
-> Google drive: https://drive.google.com/drive/folders/1tH7TOV_a41QMVsENoNqznbJcDPPN61GZ?usp=sharing
+> Note: We have provided the testing sample data (10x.WH.phase.txt, PB.WH.phase.txt and ALLHiC.hapVar.snps), which can be download from the following links:  
+Baidu cloud: https://pan.baidu.com/s/1FD_CSTTnBax3aOoNdaMHiA  Extraction number: lxnv  
+Google drive: https://drive.google.com/drive/folders/1tH7TOV_a41QMVsENoNqznbJcDPPN61GZ?usp=sharing
 
