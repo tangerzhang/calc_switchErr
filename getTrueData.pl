@@ -24,7 +24,7 @@ while(<IN>){
 	chomp;
 	my @data = split(/\s+/,$_);
 	my $key = $data[0]."_".$data[1];
-	my ($geno,$id) = (split/:/,$data[4])[0,5]; 
+	my ($geno,$id) = (split/:/,$data[4])[0,-1]; 
 	if($geno eq "0|1"){
 		$genoB = $data[2]."|".$data[3];
 	}else{
